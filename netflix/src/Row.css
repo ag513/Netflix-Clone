@@ -1,6 +1,7 @@
 .row{
     margin-left: 1.25rem;
     color: white;
+    margin-top: 1rem;
 }
 .row__posters{
     display:flex;
@@ -25,3 +26,14 @@
 .row__poster:hover{
     transform:scale(1.08);
 }
+@media only screen and (max-width: 600px) {
+  .row__poster{
+      max-width: 20%;
+  }
+  .row__title{
+      font-size: 1rem;
+  }
+  .row__posters{
+      padding-left: 0;
+  }
+  }

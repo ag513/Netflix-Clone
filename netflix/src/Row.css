@@ -35,5 +35,8 @@
   }
   .row__posters{
       padding-left: 0;
+      padding-right: 1rem;
+      padding-top: 0.5rem;
+      min-height: unset;
   }
   }
